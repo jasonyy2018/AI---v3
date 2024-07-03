@@ -138,7 +138,7 @@ def extract_fields(content):
         "姓名": re.search(r'姓名[：:]\s*(\S+)', content),
         "性别": re.search(r'性别[：:]\s*(\S+)', content),
         "出生年月": re.search(r'出生年月[：:]\s*(\S+)', content),
-        "电话": re.search(r'电话[：:]\s*(\d{3}[-.]?\d{3}[-.]?\d{4})', content),
+        "电话": re.search(r'电话[：:]\s*(\d{3}[-.]?\d{4}[-.]?\d{4})', content),
         "邮件": re.search(r'邮件[：:]\s*(\S+@\S+)', content),
         "期望工作地": re.search(r'期望工作地[：:]\s*(\S+)', content),
         "政治面貌": re.search(r'政治面貌[：:]\s*(\S+)', content),
